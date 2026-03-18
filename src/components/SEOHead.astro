@@ -1,0 +1,32 @@
+---
+import { absoluteUrl } from '@/lib/utils';
+import { siteConfig } from '@/data/site-config';
+
+interface Props {
+  title: string;
+  description: string;
+  path?: string;
+  image?: string;
+  type?: 'website' | 'article';
+  jsonLd?: object | object[];
+}
+
+const { title, description, path = '/', image = '/og-default.jpg', type = 'website', jsonLd } = Astro.props;
+const canonical = absoluteUrl(siteConfig.siteUrl, path);
+const ogImage = image.startsWith('http') ? image : absoluteUrl(siteConfig.siteUrl, image);
+const schemas = Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [];
+---
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+<meta property="og:type" content={type} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:site_name" content={siteConfig.brandName} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage} />
+{schemas.map((schema) => <script type="application/ld+json" set:html={JSON.stringify(schema)} />)}

@@ -1,0 +1,65 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Icon from '@/components/Icon.astro';
+import { siteConfig } from '@/data/site-config';
+---
+<BaseLayout title={`Liên hệ | ${siteConfig.brandName}`} description="Liên hệ Host Tốt Nhất / AZDIGI để tham khảo thêm về hosting, WordPress hosting và các giải pháp phù hợp cho website của bạn." path="/contact/">
+  <div class="bg-white">
+    <section class="relative overflow-hidden bg-slate-900 py-24">
+      <div class="absolute inset-0 opacity-10"><div class="absolute top-0 right-0 -mt-20 -mr-20 h-96 w-96 rounded-full bg-az-red blur-3xl"></div><div class="absolute bottom-0 left-0 -mb-20 -ml-20 h-64 w-64 rounded-full bg-az-blue blur-3xl"></div></div>
+      <div class="relative z-10 mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
+        <h1 class="mb-6 text-4xl font-extrabold text-white lg:text-6xl">Liên hệ với <span class="text-az-red">Host Tốt Nhất</span></h1>
+        <p class="mx-auto max-w-3xl text-xl text-slate-400">Nếu bạn cần thêm góc nhìn để chọn hosting phù hợp, thông tin liên hệ bên dưới là của AZDIGI — đơn vị cung cấp dịch vụ được tham chiếu trên website này.</p>
+      </div>
+    </section>
+    <section class="relative z-20 -mt-16 py-20">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+          <div class="group flex flex-col items-center rounded-3xl border border-slate-100 bg-white p-8 text-center shadow-xl transition-transform duration-300 hover:-translate-y-2">
+            <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-az-blue/5 transition-colors group-hover:bg-az-blue"><Icon name="phone" class="h-8 w-8 text-az-blue transition-colors group-hover:text-white" /></div>
+            <h3 class="mb-2 text-xl font-bold text-slate-900">Điện thoại</h3>
+            <p class="mb-4 text-sm text-slate-500">Kinh doanh và kỹ thuật</p>
+            <a href={siteConfig.contact.phoneHref} class="text-lg font-bold text-az-blue hover:underline">{siteConfig.contact.phoneDisplay}</a>
+          </div>
+          <div class="group flex flex-col items-center rounded-3xl border border-slate-100 bg-white p-8 text-center shadow-xl transition-transform duration-300 hover:-translate-y-2">
+            <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-az-blue/5 transition-colors group-hover:bg-az-blue"><Icon name="mail" class="h-8 w-8 text-az-blue transition-colors group-hover:text-white" /></div>
+            <h3 class="mb-2 text-xl font-bold text-slate-900">Email</h3>
+            <p class="mb-4 text-sm text-slate-500">Gửi yêu cầu để được hỗ trợ</p>
+            <a href={siteConfig.contact.emailHref} class="text-lg font-bold text-az-blue hover:underline">{siteConfig.contact.email}</a>
+          </div>
+          <div class="group flex flex-col items-center rounded-3xl border border-slate-100 bg-white p-8 text-center shadow-xl transition-transform duration-300 hover:-translate-y-2">
+            <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-az-blue/5 transition-colors group-hover:bg-az-blue"><Icon name="map-pin" class="h-8 w-8 text-az-blue transition-colors group-hover:text-white" /></div>
+            <h3 class="mb-2 text-xl font-bold text-slate-900">Địa chỉ</h3>
+            <p class="mb-4 text-sm text-slate-500">Văn phòng làm việc AZDIGI</p>
+            <span class="text-sm font-bold text-slate-700">{siteConfig.contact.address}</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-slate-50 py-24">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="items-center gap-16 lg:grid lg:grid-cols-2">
+          <a href={siteConfig.contact.mapUrl} target="_blank" rel="noopener noreferrer" class="group relative mb-12 block h-[400px] overflow-hidden rounded-3xl border border-slate-200 shadow-2xl lg:mb-0">
+            <img src="https://picsum.photos/seed/hosttotnhat-map/800/600" alt="Map" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" referrerpolicy="no-referrer" />
+            <div class="absolute inset-0 flex items-center justify-center bg-slate-900/20"><div class="flex items-center rounded-full bg-white px-8 py-4 shadow-2xl"><Icon name="map-pin" class="mr-3 h-6 w-6 text-az-red" /><span class="text-lg font-bold text-slate-900">Xem trên Google Maps</span></div></div>
+          </a>
+          <div class="text-center lg:text-left">
+            <h2 class="mb-6 text-3xl leading-tight font-bold text-slate-900 lg:text-4xl">Khi nào nên liên hệ trực tiếp?</h2>
+            <div class="space-y-4 text-lg leading-relaxed text-slate-600">
+              <p>Nếu bạn đang phân vân giữa shared hosting, WordPress hosting và gói business, cách nhanh nhất là mô tả website hiện tại, lượng truy cập và kế hoạch phát triển trong 6–12 tháng tới.</p>
+              <p>Với các website đang có doanh thu, chạy ads hoặc dùng WooCommerce, việc hỏi kỹ trước khi mua sẽ giúp tránh phải migrate sớm và giảm rủi ro nghẽn tài nguyên giữa chiến dịch.</p>
+            </div>
+            <div class="mt-8 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+              <div class="mb-3 flex items-center gap-3 text-slate-900"><Icon name="building-2" class="h-5 w-5 text-az-blue" /><span class="font-bold">Thông tin doanh nghiệp</span></div>
+              <p class="text-sm leading-7 text-slate-600">{siteConfig.contact.companyName} — MST: {siteConfig.contact.taxCode}</p>
+            </div>
+            <div class="mt-10 flex flex-col justify-center gap-4 sm:flex-row lg:justify-start">
+              <a href="https://azdigi.com" target="_blank" rel="noopener noreferrer" class="az-button-primary flex items-center justify-center px-10 py-4 text-lg">Truy cập AZDIGI.com <Icon name="send" class="ml-2 h-5 w-5" /></a>
+              <a href={siteConfig.contact.phoneHref} class="az-button-outline flex items-center justify-center px-10 py-4 text-lg">Gọi ngay</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

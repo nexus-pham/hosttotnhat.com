@@ -1,0 +1,211 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import FeatureCard from '@/components/FeatureCard.astro';
+import PricingTable from '@/components/PricingTable.astro';
+import BlogCard from '@/components/BlogCard.astro';
+import Icon from '@/components/Icon.astro';
+import { siteConfig } from '@/data/site-config';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog')).sort((a, b) => b.data.date.getTime() - a.data.date.getTime()).slice(0, 3);
+const orgSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: siteConfig.brandName,
+  url: siteConfig.siteUrl,
+  telephone: siteConfig.contact.phoneDisplay,
+  email: siteConfig.contact.email,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: siteConfig.contact.address,
+    addressCountry: 'VN',
+  },
+};
+const faqItems = [
+  {
+    question: 'Hosting tốt nhất có phải là gói mạnh nhất không?',
+    answer: 'Không. Gói tốt nhất là gói phù hợp với traffic, mã nguồn và ngân sách hiện tại của website. Mua quá mạnh sẽ lãng phí, mua quá yếu sẽ dễ nghẽn tài nguyên.'
+  },
+  {
+    question: 'Website WordPress nên ưu tiên điều gì khi chọn hosting?',
+    answer: 'Nên ưu tiên LiteSpeed hoặc cache tương đương, backup ổn định, support hiểu WordPress và khả năng xử lý plugin nặng hoặc WooCommerce.'
+  },
+  {
+    question: 'Hosting giá rẻ có dùng được lâu dài không?',
+    answer: 'Có thể, nếu website nhỏ, traffic thấp và yêu cầu đơn giản. Nhưng khi bắt đầu có traffic hoặc doanh thu, bạn nên cân nhắc nâng lên gói phù hợp hơn.'
+  },
+  {
+    question: 'Khi nào nên chọn Premium Business thay vì shared hosting?',
+    answer: 'Khi website là tài sản kinh doanh, cần uptime cao hơn, backup tốt hơn, bảo mật tốt hơn và muốn có dư địa tăng trưởng ổn định hơn.'
+  },
+  {
+    question: 'Có nên chọn hosting Việt Nam thay vì nước ngoài?',
+    answer: 'Nếu khách truy cập chủ yếu ở Việt Nam, cần support tiếng Việt và muốn tối ưu độ trễ, hosting Việt Nam thường là lựa chọn hợp lý hơn.'
+  },
+  {
+    question: 'Support hosting quan trọng đến mức nào?',
+    answer: 'Rất quan trọng. Hạ tầng có thể tốt, nhưng khi site lỗi, support chậm hoặc xử lý hời hợt sẽ khiến bạn tốn thời gian và thiệt hại doanh thu.'
+  },
+  {
+    question: 'Nên bắt đầu từ hosting hay VPS?',
+    answer: 'Phần lớn website mới nên bắt đầu bằng hosting nếu chưa cần quyền root hay cấu hình riêng. VPS chỉ nên lên khi có dấu hiệu quá tải hoặc cần mức tùy biến cao hơn.'
+  }
+];
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map((item) => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: { '@type': 'Answer', text: item.answer }
+  }))
+};
+const useCases = [
+  {
+    title: 'Website WordPress',
+    description: 'Ưu tiên LiteSpeed, cache, backup và support hiểu WordPress.',
+    href: '/blog/hosting-cho-wordpress-tot-nhat/',
+    icon: 'globe'
+  },
+  {
+    title: 'Blog cá nhân & site nhỏ',
+    description: 'Chọn gói đủ dùng, dễ quản lý và không tốn chi phí vượt mức cần thiết.',
+    href: '/blog/hosting-gia-re-tot-nhat/',
+    icon: 'notebook-pen'
+  },
+  {
+    title: 'Website bán hàng',
+    description: 'Cần xử lý checkout mượt, backup đều và độ ổn định tốt khi chạy ads.',
+    href: '/blog/hosting-tot-nhat-cho-website-ban-hang/',
+    icon: 'shopping-cart'
+  },
+  {
+    title: 'Website doanh nghiệp',
+    description: 'Ưu tiên uptime, bảo mật, hỗ trợ ưu tiên và khả năng nâng cấp sau này.',
+    href: '/blog/hosting-cho-website-doanh-nghiep/',
+    icon: 'briefcase-business'
+  }
+];
+---
+<BaseLayout title={`${siteConfig.tagline} | ${siteConfig.brandName}`} description="Host Tốt Nhất chia sẻ tiêu chí đánh giá hosting, so sánh các nhóm dịch vụ phổ biến và gợi ý chọn hosting phù hợp cho từng nhu cầu website." path="/" jsonLd={[orgSchema, faqSchema]}>
+  <Hero />
+
+  <section class="bg-white py-24">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="mb-16 text-center">
+        <h2 class="text-3xl font-extrabold text-slate-900 sm:text-4xl lg:text-5xl">Tiêu chí <span class="text-az-blue">đánh giá hosting</span></h2>
+        <p class="mx-auto mt-4 max-w-3xl text-xl text-slate-600">Thay vì nghe quảng cáo, hãy nhìn vào 4 nhóm yếu tố quyết định trải nghiệm vận hành website thật sự.</p>
+      </div>
+      <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">{siteConfig.features.map((feature) => <FeatureCard feature={feature} />)}</div>
+    </div>
+  </section>
+
+  <PricingTable />
+
+  <section class="overflow-hidden bg-white py-24">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="items-center gap-16 lg:flex lg:items-center lg:space-x-16">
+        <div class="mb-12 lg:mb-0 lg:w-1/2">
+          <div class="relative">
+            <div class="absolute -top-4 -left-4 h-24 w-24 rounded-full bg-az-blue/10 blur-2xl"></div>
+            <h2 class="mb-6 text-3xl leading-tight font-bold text-slate-900">Hosting tốt nhất là gì?</h2>
+            <div class="home-prose prose prose-lg">
+              <p>Không có một gói hosting nào tốt nhất cho mọi website. Với blog cá nhân, điều quan trọng có thể là chi phí và sự dễ dùng. Với WordPress hoặc WooCommerce, thứ bạn cần lại là cache tốt, backup ổn định và support hiểu hệ thống. Còn với website doanh nghiệp, uptime và độ tin cậy mới là thứ cần trả tiền.</p>
+              <p>Vì vậy, cách đánh giá hợp lý nhất là đặt hosting vào đúng bối cảnh sử dụng. Chọn đúng từ đầu giúp bạn tiết kiệm tiền, đỡ phải migrate nhiều lần và tránh cảm giác “mua nhầm” sau vài tháng vận hành.</p>
+            </div>
+            <div class="mt-8">
+              <a href="/blog/cach-chon-hosting-phu-hop/" class="inline-flex items-center font-semibold text-az-blue hover:text-az-blue-dark">
+                Đọc bài: Cách chọn hosting phù hợp <Icon name="arrow-right" class="ml-2 h-5 w-5" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/2">
+          <div class="grid grid-cols-2 gap-4">
+            <div class="space-y-4">
+              <div class="rounded-3xl border border-slate-100 bg-slate-50 p-6">
+                <div class="mb-1 text-3xl font-bold text-az-blue">99.9%</div>
+                <div class="text-sm font-medium text-slate-500">Uptime nên có với site quan trọng</div>
+              </div>
+              <div class="rounded-3xl bg-az-blue p-6 text-white">
+                <div class="mb-1 text-3xl font-bold">24/7</div>
+                <div class="text-sm font-medium opacity-80">Support là phần của sản phẩm</div>
+              </div>
+            </div>
+            <div class="space-y-4 pt-8">
+              <div class="rounded-3xl bg-az-red p-6 text-white">
+                <div class="mb-1 text-3xl font-bold">Từ 49k</div>
+                <div class="text-sm font-medium opacity-80">Có thể bắt đầu gọn nhẹ</div>
+              </div>
+              <div class="rounded-3xl border border-slate-100 bg-slate-50 p-6">
+                <div class="mb-1 text-3xl font-bold text-az-blue">Dễ nâng cấp</div>
+                <div class="text-sm font-medium text-slate-500">Mới là tiêu chí chọn đúng dài hạn</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-slate-50 py-24">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="mb-16 text-center">
+        <h2 class="text-3xl font-bold text-slate-900 sm:text-4xl">Chọn hosting theo nhu cầu</h2>
+        <p class="mx-auto mt-4 max-w-3xl text-slate-600">Nếu chưa biết bắt đầu từ đâu, hãy đi từ loại website bạn đang vận hành hoặc sắp triển khai.</p>
+      </div>
+      <div class="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
+        {useCases.map((item) => (
+          <a href={item.href} class="group rounded-3xl border border-slate-100 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+            <div class="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-az-blue/10 text-az-blue group-hover:bg-az-blue group-hover:text-white">
+              <Icon name={item.icon} class="h-6 w-6" />
+            </div>
+            <h3 class="mb-3 text-xl font-bold text-slate-900 group-hover:text-az-blue">{item.title}</h3>
+            <p class="mb-5 text-sm leading-6 text-slate-600">{item.description}</p>
+            <span class="inline-flex items-center text-sm font-semibold text-az-blue">Xem bài liên quan <Icon name="arrow-right" class="ml-2 h-4 w-4" /></span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white py-24">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="mb-16 max-w-3xl">
+        <h2 class="mb-4 text-3xl font-bold text-slate-900">Bài viết mới nhất</h2>
+        <p class="text-slate-600">Các bài trong blog sẽ đi sâu hơn vào từng use case như WordPress, website bán hàng, website doanh nghiệp và cách nâng cấp khi traffic tăng.</p>
+      </div>
+      <div class="grid grid-cols-1 gap-8 md:grid-cols-3">{posts.map((post) => <BlogCard post={post} />)}</div>
+      <div class="mt-12 text-center"><a href="/blog/" class="az-button-outline inline-flex items-center">Xem tất cả bài viết <Icon name="arrow-right" class="ml-2 h-5 w-5" /></a></div>
+    </div>
+  </section>
+
+  <section class="bg-slate-50 py-24">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+      <div class="mb-12 text-center">
+        <h2 class="text-3xl font-bold text-slate-900 sm:text-4xl">Câu hỏi thường gặp khi chọn hosting</h2>
+      </div>
+      <div class="space-y-4">
+        {faqItems.map((item) => (
+          <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+            <h3 class="mb-3 text-lg font-bold text-slate-900">{item.question}</h3>
+            <p class="leading-7 text-slate-600">{item.answer}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="relative overflow-hidden bg-az-blue py-20">
+    <div class="absolute inset-0 opacity-10"><div class="absolute top-0 left-0 h-full w-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white via-transparent to-transparent"></div></div>
+    <div class="relative z-10 mx-auto max-w-5xl px-4 text-center sm:px-6 lg:px-8">
+      <h2 class="mb-8 text-3xl font-bold text-white sm:text-4xl lg:text-5xl">Muốn chọn hosting đỡ sai ngay từ đầu?</h2>
+      <p class="mx-auto mb-10 max-w-2xl text-xl text-emerald-50">Bắt đầu bằng nhu cầu thật của website, sau đó đối chiếu với bảng giá và đọc thêm các bài phân tích chuyên sâu trong blog của Host Tốt Nhất.</p>
+      <div class="flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
+        <a href={siteConfig.ctas.register} target="_blank" rel="noopener noreferrer" class="az-button-primary bg-white px-10 py-4 text-lg text-az-blue hover:bg-slate-100">Xem dịch vụ AZDIGI</a>
+        <a href="/contact/" class="rounded-lg border-2 border-white/30 px-10 py-4 text-lg font-semibold text-white transition-all hover:bg-white/10">Liên hệ để tham khảo thêm</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

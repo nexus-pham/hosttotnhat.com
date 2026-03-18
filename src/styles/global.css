@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+
+  --color-az-blue: #059669;
+  --color-az-blue-dark: #047857;
+  --color-az-red: #f59e0b;
+  --color-az-red-light: #fbbf24;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white font-sans text-slate-900 antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-semibold tracking-tight;
+  }
+
+  a {
+    @apply transition-all duration-300;
+  }
+
+  ::selection {
+    @apply bg-az-blue/15 text-slate-900;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-az-blue/40 ring-offset-2 ring-offset-white;
+  }
+}
+
+@layer components {
+  .home-prose {
+    @apply max-w-none text-slate-600;
+    --tw-prose-body: theme(colors.slate.600);
+    --tw-prose-headings: theme(colors.slate.900);
+    --tw-prose-links: theme(colors.az-blue);
+    --tw-prose-bold: theme(colors.slate.900);
+    --tw-prose-bullets: theme(colors.az-blue);
+    --tw-prose-counters: theme(colors.slate.500);
+  }
+
+  .home-prose :where(h2, h3) {
+    @apply mb-6 text-balance;
+  }
+
+  .home-prose :where(p) {
+    @apply my-0 text-[1.06rem] leading-[1.95] text-slate-600;
+  }
+
+  .home-prose :where(p + p) {
+    @apply mt-6;
+  }
+
+  .home-prose > p:first-of-type::first-letter {
+    @apply mr-3 float-left font-display text-5xl leading-none font-semibold text-az-red;
+  }
+
+  .article-prose {
+    @apply max-w-none text-slate-600;
+    --tw-prose-body: theme(colors.slate.600);
+    --tw-prose-headings: theme(colors.slate.900);
+    --tw-prose-links: theme(colors.az-blue);
+    --tw-prose-bold: theme(colors.slate.900);
+    --tw-prose-bullets: theme(colors.az-blue);
+    --tw-prose-counters: theme(colors.slate.500);
+    --tw-prose-captions: theme(colors.slate.500);
+  }
+
+  .article-prose :where(p, li) {
+    @apply text-[1.06rem] leading-[1.95] text-slate-600;
+  }
+
+  .article-prose :where(p + p) {
+    @apply mt-6;
+  }
+
+  .article-prose :where(h2) {
+    @apply mt-12 mb-6 border-b border-slate-200 pb-4 pl-5 text-3xl font-semibold text-slate-900;
+    position: relative;
+  }
+
+  .article-prose :where(h2)::before {
+    content: "";
+    @apply absolute left-0 top-1 h-[calc(100%-0.5rem)] w-1 rounded-full bg-az-red;
+  }
+
+  .article-prose :where(h3) {
+    @apply mt-10 mb-4 text-2xl font-semibold text-slate-900;
+  }
+
+  .article-prose :where(h4) {
+    @apply mt-8 mb-3 text-xl font-semibold text-slate-900;
+  }
+
+  .article-prose :where(a) {
+    @apply font-medium text-az-blue decoration-transparent underline-offset-4;
+  }
+
+  .article-prose :where(a:hover) {
+    @apply decoration-current;
+  }
+
+  .article-prose :where(strong) {
+    @apply font-semibold text-slate-900;
+  }
+
+  .article-prose :where(ul, ol) {
+    @apply my-8 space-y-3 pl-6;
+  }
+
+  .article-prose :where(ul > li)::marker {
+    color: theme(colors.az-blue);
+  }
+
+  .article-prose :where(ol > li)::marker {
+    @apply font-semibold text-az-blue;
+  }
+
+  .article-prose :where(li > p) {
+    @apply my-0;
+  }
+
+  .article-prose :where(code):not(:where(pre code)) {
+    @apply rounded-md bg-slate-100 px-1.5 py-0.5 text-[0.9em] font-medium text-slate-800;
+  }
+
+  .article-prose :where(pre) {
+    @apply overflow-x-auto rounded-2xl border border-slate-200 bg-slate-950 px-5 py-4 text-slate-100 shadow-lg;
+  }
+
+  .article-prose :where(pre code) {
+    @apply bg-transparent p-0 text-sm leading-7 text-inherit;
+  }
+
+  .article-prose :where(img) {
+    @apply mx-auto my-10 rounded-3xl shadow-xl;
+  }
+
+  .article-prose :where(figure) {
+    @apply my-10;
+  }
+
+  .article-prose :where(figcaption) {
+    @apply mt-3 text-center text-sm italic text-slate-500;
+  }
+
+  .article-prose :where(table) {
+    @apply my-10 w-full overflow-hidden rounded-2xl border border-slate-200 bg-white text-left text-base shadow-sm;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+
+  .article-prose :where(thead th) {
+    background-color: var(--color-az-blue) !important;
+    color: white !important;
+    @apply px-4 py-3 text-sm font-semibold;
+    padding-inline-start: 1rem !important;
+  }
+
+  .article-prose :where(tbody td) {
+    @apply border-t border-slate-200 px-4 py-3 align-top text-sm;
+  }
+
+  .article-prose :where(tbody tr:nth-child(even)) {
+    @apply bg-slate-50;
+  }
+
+  .article-prose :where(th:first-child) {
+    @apply rounded-tl-2xl;
+  }
+
+  .article-prose :where(th:last-child) {
+    @apply rounded-tr-2xl;
+  }
+
+  .article-prose :where(tbody tr:last-child td:first-child) {
+    @apply rounded-bl-2xl;
+  }
+
+  .article-prose :where(tbody tr:last-child td:last-child) {
+    @apply rounded-br-2xl;
+  }
+
+  .article-prose :where(hr) {
+    @apply my-12 border-slate-200;
+  }
+
+  .article-prose :where(table) {
+    display: table;
+    min-width: 600px;
+  }
+
+  .article-prose :where(blockquote) {
+    @apply rounded-r-lg border-l-4 border-az-red bg-slate-50 py-2 pl-6;
+    font-style: normal;
+  }
+
+  .article-prose :where(blockquote p) {
+    @apply text-slate-700;
+  }
+}
+
+.az-gradient {
+  @apply bg-linear-to-r from-az-blue to-az-blue-dark;
+}
+
+.az-button-primary {
+  @apply rounded-lg bg-az-red px-8 py-3 font-semibold text-white shadow-md transition-all duration-300 hover:bg-az-red-light hover:shadow-lg;
+}
+
+.az-button-outline {
+  @apply rounded-lg border-2 border-az-blue px-8 py-3 font-semibold text-az-blue transition-all duration-300 hover:bg-az-blue hover:text-white;
+}
+
+.fade-slide-up {
+  animation: fadeSlideUp 0.7s ease-out both;
+}
+
+.fade-scale-in {
+  animation: fadeScaleIn 0.9s ease-out both;
+}
+
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; }
+.delay-500 { animation-delay: 0.5s; }
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeScaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

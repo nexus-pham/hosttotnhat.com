@@ -1,0 +1,55 @@
+---
+import { siteConfig } from '@/data/site-config';
+import Icon from '@/components/Icon.astro';
+---
+<section id="pricing" class="bg-slate-50 py-24">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="mb-16 text-center">
+      <h2 class="text-3xl font-extrabold text-slate-900 sm:text-4xl lg:text-5xl">
+        Bảng giá <span class="text-az-blue">tham khảo theo nhu cầu</span>
+      </h2>
+      <p class="mx-auto mt-4 max-w-3xl text-xl text-slate-600">
+        Không phải website nào cũng cần gói mạnh nhất. Bắt đầu từ đúng nhu cầu sẽ tiết kiệm chi phí hơn và nâng cấp cũng dễ hơn.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
+      {siteConfig.pricingSections.map((plan) => (
+        <div class={`relative rounded-3xl border bg-white p-8 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl ${plan.isPopular ? 'border-az-blue ring-4 ring-az-blue/10' : 'border-slate-100'}`}>
+          {plan.isPopular && (
+            <div class="absolute top-0 left-1/2 flex -translate-x-1/2 -translate-y-1/2 items-center rounded-full bg-az-blue px-4 py-1.5 text-xs font-bold tracking-widest text-white uppercase shadow-lg">
+              <Icon name="sparkles" class="mr-1 h-3 w-3" /> Phù hợp nhất cho WordPress
+            </div>
+          )}
+          <div class="mb-6">
+            <h3 class="mb-2 text-2xl font-bold text-slate-900">{plan.name}</h3>
+            <p class="min-h-16 text-sm leading-6 text-slate-600">{plan.subtitle}</p>
+          </div>
+          <div class="mb-8">
+            <div class="flex items-end gap-2">
+              <span class="text-4xl font-extrabold text-az-blue">{plan.startingPrice.toLocaleString('vi-VN')}đ</span>
+              <span class="pb-1 text-sm font-medium text-slate-500">/tháng</span>
+            </div>
+            {plan.oldPrice && <div class="mt-1 text-sm text-slate-400 line-through">Từ {plan.oldPrice.toLocaleString('vi-VN')}đ/tháng</div>}
+          </div>
+          <ul class="mb-8 space-y-4">
+            {plan.features.map((feature) => (
+              <li class="flex items-start">
+                <div class="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-az-blue/10">
+                  <Icon name="check" class="h-3 w-3 text-az-blue" />
+                </div>
+                <span class="ml-3 text-sm text-slate-600">{feature}</span>
+              </li>
+            ))}
+          </ul>
+          <a href={plan.ctaUrl} target="_blank" rel="noopener noreferrer" class={`block w-full rounded-xl px-6 py-3 text-center font-bold transition-all duration-300 ${plan.isPopular ? 'bg-az-blue text-white hover:bg-az-blue-dark shadow-lg shadow-az-blue/20' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'}`}>
+            {plan.ctaText}
+          </a>
+        </div>
+      ))}
+    </div>
+    <div class="mt-10 text-center">
+      <p class="text-sm text-slate-500">* Mức giá mở đầu dùng để tham khảo nhanh khi so sánh. Giá thực tế có thể thay đổi theo chu kỳ thanh toán và chương trình ưu đãi của AZDIGI.</p>
+    </div>
+  </div>
+</section>
