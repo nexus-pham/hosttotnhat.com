@@ -14,6 +14,8 @@ faq:
     answer: "Không bắt buộc. Nếu chỉ là blog nhỏ, gói shared tốt vẫn đủ. WordPress Hosting hợp hơn khi bạn muốn ít phải tự tối ưu hoặc cần môi trường ổn định hơn cho WordPress."
   - question: "WordPress Hosting có thay thế VPS không?"
     answer: "Không. WordPress Hosting là môi trường managed hơn cho WordPress. VPS phù hợp khi bạn cần quyền kiểm soát hệ thống sâu hơn và có khả năng tự quản trị."
+image: "/images/blog/wordpress-hosting-la-gi.png"
+
 ---
 # wordpress hosting là gì? khi nào nên dùng thay vì hosting thường
 

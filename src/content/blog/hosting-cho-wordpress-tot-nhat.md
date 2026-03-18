@@ -14,6 +14,8 @@ faq:
     answer: "Có, nhất là khi bạn dùng LiteSpeed Cache đúng cách. Nó giúp giảm tải backend, cải thiện TTFB và xử lý cache trang tốt hơn trên nhiều site WordPress."
   - question: "Khi nào nên nâng từ WordPress Hosting lên business hosting?"
     answer: "Khi site có traffic tăng rõ, nhiều plugin nặng, backend chậm vào giờ cao điểm hoặc có yêu cầu ổn định cao hơn cho chiến dịch marketing và bán hàng."
+image: "/images/blog/hosting-cho-wordpress-tot-nhat.png"
+
 ---
 # hosting cho wordpress tốt nhất: chọn sao cho nhanh, ổn định, dễ quản lý
 

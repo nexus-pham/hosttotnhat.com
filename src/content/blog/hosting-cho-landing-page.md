@@ -14,6 +14,8 @@ faq:
     answer: "Cả hai. Hosting quyết định nền tảng máy chủ, còn theme, ảnh và script quyết định phần tải tài nguyên phía trước. Muốn nhanh phải tối ưu cả hai."
   - question: "Khi chạy ads thì lúc nào nên nâng cấp?"
     answer: "Khi CPU, RAM hoặc tốc độ phản hồi tăng xấu trong giờ cao điểm, hoặc khi bạn liên tục có burst traffic khiến form gửi chậm, đó là lúc nên nâng cấp."
+image: "/images/blog/hosting-cho-landing-page.png"
+
 ---
 
 # Mở đầu

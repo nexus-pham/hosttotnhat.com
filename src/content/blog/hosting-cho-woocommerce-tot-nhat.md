@@ -14,6 +14,8 @@ faq:
     answer: "Được nếu shop rất nhỏ, ít sản phẩm, traffic thấp. Nhưng khi đã có đơn đều hoặc chạy quảng cáo, business hosting thường an toàn hơn."
   - question: "Điểm nghẽn phổ biến của WooCommerce là gì?"
     answer: "Thường là plugin nặng, hình ảnh lớn, cache cấu hình sai, I/O thấp và tài nguyên CPU/RAM không đủ vào giờ cao điểm."
+image: "/images/blog/hosting-cho-woocommerce-tot-nhat.png"
+
 ---
 # hosting tốt nhất cho WooCommerce: ưu tiên tốc độ, checkout mượt, ít lỗi
 

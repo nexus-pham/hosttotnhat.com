@@ -14,6 +14,8 @@ faq:
     answer: "Không phải lúc nào cũng cần. Nếu bạn chỉ quản lý vài site WordPress, Business Hosting hoặc multi-site hosting dễ vận hành hơn. Reseller phù hợp khi cần tách tài khoản, phân quyền và quản lý thương mại rõ ràng."
   - question: "Support tốt quan trọng thế nào với freelancer?"
     answer: "Rất quan trọng. Freelancer thường không có đội hạ tầng riêng. Khi lỗi SSL, email, DNS hoặc downtime xảy ra, tốc độ phản hồi của nhà cung cấp ảnh hưởng trực tiếp tới uy tín với khách hàng."
+image: "/images/blog/hosting-cho-freelancer-va-agency.png"
+
 ---
 
 

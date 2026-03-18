@@ -14,6 +14,8 @@ faq:
     answer: "Không hẳn. Có những gói giá mềm vẫn dùng NVMe và LiteSpeed nên đủ nhanh cho website nhỏ. Vấn đề là phải xem cấu hình và chất lượng vận hành thực tế."
   - question: "Người mới nên chọn hosting giá rẻ hay WordPress Hosting?"
     answer: "Nếu chỉ mới bắt đầu, hosting giá rẻ tốt là đủ. Nếu muốn đỡ tự tối ưu và cần staging, có thể cân nhắc WordPress Hosting."
+image: "/images/blog/hosting-gia-re-tot-nhat.png"
+
 ---
 # hosting giá rẻ tốt nhất: tiết kiệm nhưng đừng chọn kiểu "rẻ nào cũng được"
 

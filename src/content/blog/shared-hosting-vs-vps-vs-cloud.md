@@ -14,6 +14,8 @@ faq:
     answer: "Không. Cloud linh hoạt hơn ở một số bài toán, nhưng cũng phức tạp và dễ tốn chi phí hơn nếu không quản trị chặt."
   - question: "Khi nào nên bỏ shared hosting để lên VPS hoặc cloud?"
     answer: "Khi site chạm trần tài nguyên thường xuyên, cần cấu hình riêng, có traffic tăng mạnh hoặc cần mức cô lập cao hơn."
+image: "/images/blog/shared-hosting-vs-vps-vs-cloud.png"
+
 ---
 
 # Mở đầu

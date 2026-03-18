@@ -14,6 +14,8 @@ faq:
     answer: "Trong nhiều trường hợp, có. Một chút cấu hình thấp hơn nhưng support tốt thường dễ sống hơn gói mạnh mà khi lỗi lại không biết hỏi ai."
   - question: "Nên đánh giá support hosting qua tiêu chí nào?"
     answer: "Hãy nhìn vào tốc độ phản hồi, phạm vi xử lý, độ rõ ràng của câu trả lời và khả năng hỗ trợ khi migrate hoặc khôi phục sự cố."
+image: "/images/blog/hosting-ho-tro-tot-nhat.png"
+
 ---
 # hosting hỗ trợ tốt nhất: support 24/7 khác gì với "có ticket là được"
 

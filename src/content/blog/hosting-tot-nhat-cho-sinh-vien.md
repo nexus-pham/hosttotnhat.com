@@ -14,6 +14,8 @@ faq:
     answer: "Không. VPS chỉ cần khi bạn phải cài phần mềm riêng, cần quyền root hoặc có traffic tăng rõ. Với giai đoạn học làm web, shared hosting hoặc WordPress Hosting là đủ."
   - question: "Nên chọn datacenter Việt Nam hay Singapore cho site cá nhân?"
     answer: "Nếu người xem chính ở Việt Nam, ưu tiên máy chủ tại Việt Nam để latency thấp hơn. Singapore phù hợp khi bạn muốn phục vụ thêm người dùng khu vực Đông Nam Á."
+image: "/images/blog/hosting-tot-nhat-cho-sinh-vien.png"
+
 ---
 
 

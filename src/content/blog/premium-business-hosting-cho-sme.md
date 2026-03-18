@@ -14,6 +14,8 @@ faq:
     answer: "Với nhiều website bán hàng vừa và nhỏ, mức 2-8 cores, 4-12GB RAM và Disk I/O 200MB/s là khá ổn. Tuy nhiên vẫn cần tối ưu cache, ảnh và plugin."
   - question: "Khi nào nên lên Turbo Business thay vì Premium Business?"
     answer: "Khi traffic cao hơn, nhiều site cùng chạy, hoặc bạn cần Disk I/O 500MB/s, 6-18 vCPU và IP riêng từ gói 3."
+image: "/images/blog/premium-business-hosting-cho-sme.png"
+
 ---
 
 # Mở đầu

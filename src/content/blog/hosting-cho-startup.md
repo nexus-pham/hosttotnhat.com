@@ -14,6 +14,8 @@ faq:
     answer: "Ưu tiên dễ triển khai, dễ nâng cấp, ít lock-in và chi phí phù hợp với giai đoạn thử nghiệm sản phẩm."
   - question: "Khi nào startup nên chuyển từ hosting sang VPS hoặc cloud?"
     answer: "Khi cần kiến trúc riêng, workload tăng rõ, có queue, background jobs hoặc cần kiểm soát môi trường tốt hơn."
+image: "/images/blog/hosting-cho-startup.png"
+
 ---
 
 # Mở đầu

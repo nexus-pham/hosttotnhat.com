@@ -14,6 +14,8 @@ faq:
     answer: "Nhiều khi rẻ hơn trên bảng giá, nhưng còn phải tính support lệch múi giờ, khác biệt pháp lý và chi phí phát sinh khi cần xử lý nhanh."
   - question: "CDN có thay thế được datacenter gần người dùng không?"
     answer: "CDN giúp nhiều cho file tĩnh, nhưng không thay thế hoàn toàn độ trễ của phần xử lý động như đăng nhập, checkout hay truy vấn database."
+image: "/images/blog/hosting-viet-nam-hay-nuoc-ngoai.png"
+
 ---
 
 # Mở đầu

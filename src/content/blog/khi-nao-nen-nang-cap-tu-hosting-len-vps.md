@@ -14,6 +14,8 @@ faq:
     answer: "Có thể, nhưng cần loại trừ nguyên nhân từ code, plugin, ảnh và cache trước. VPS chỉ giải quyết phần hạ tầng, không sửa lỗi ứng dụng kém tối ưu."
   - question: "Lên VPS rồi có phải site sẽ nhanh hơn nhiều?"
     answer: "Không luôn luôn. Nếu cấu hình và vận hành không tốt, VPS còn có thể chậm hơn hosting chất lượng cao."
+image: "/images/blog/khi-nao-nen-nang-cap-tu-hosting-len-vps.png"
+
 ---
 
 # Mở đầu

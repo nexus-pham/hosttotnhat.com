@@ -14,6 +14,8 @@ faq:
     answer: "Imunify360 là lớp bảo mật giúp phát hiện và chặn nhiều hành vi độc hại phổ biến trên máy chủ hosting, rất hữu ích ở môi trường nhiều website cùng tồn tại."
   - question: "CloudLinux liên quan gì đến bảo mật?"
     answer: "CloudLinux giúp cách ly tài khoản tốt hơn trong môi trường shared hoặc business hosting, giảm ảnh hưởng chéo khi một website có vấn đề."
+image: "/images/blog/hosting-bao-mat-tot-nhat.png"
+
 ---
 # hosting bảo mật tốt nhất: cần gì ngoài SSL và backup?
 

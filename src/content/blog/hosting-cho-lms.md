@@ -14,6 +14,8 @@ faq:
     answer: "Thường không nên. Tốt hơn là nhúng từ nền tảng video hoặc object storage để giảm áp lực băng thông và dung lượng."
   - question: "LMS cần ưu tiên RAM hay CPU?"
     answer: "Cả hai, nhưng RAM thường rất quan trọng khi nhiều người đăng nhập và làm quiz cùng lúc. CPU cũng cần đủ để xử lý PHP, cache và truy vấn."
+image: "/images/blog/hosting-cho-lms.png"
+
 ---
 
 # Mở đầu

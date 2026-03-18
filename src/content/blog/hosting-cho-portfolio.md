@@ -14,6 +14,8 @@ faq:
     answer: "Tốc độ nên ưu tiên trước. Ảnh có thể nén và tối ưu, còn cảm giác chậm khi mở trang chủ sẽ ảnh hưởng trực tiếp tới ấn tượng ban đầu."
   - question: "Có nên dùng chung hosting portfolio với blog cá nhân?"
     answer: "Có thể, nếu tổng tải còn thấp và bạn quản lý tốt. Khi blog tăng trưởng mạnh hoặc cần tách môi trường, hãy tách riêng."
+image: "/images/blog/hosting-cho-portfolio.png"
+
 ---
 
 # Mở đầu

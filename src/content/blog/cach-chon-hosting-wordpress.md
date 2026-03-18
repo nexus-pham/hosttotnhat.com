@@ -14,6 +14,8 @@ faq:
     answer: "Nếu bạn thường sửa giao diện, test plugin hoặc có nhiều người quản trị, nên chọn. Nếu site rất nhỏ và ít thay đổi, có thể chưa cần ngay."
   - question: "WordPress blog và WooCommerce có dùng chung một tiêu chí chọn hosting không?"
     answer: "Có phần giống nhau, nhưng WooCommerce yêu cầu tài nguyên và I/O cao hơn vì có giỏ hàng, checkout và truy vấn sản phẩm động."
+image: "/images/blog/cach-chon-hosting-wordpress.png"
+
 ---
 # cách chọn hosting cho WordPress: 9 tiêu chí không nên bỏ qua
 

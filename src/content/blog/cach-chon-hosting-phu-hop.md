@@ -14,6 +14,8 @@ faq:
     answer: "Không nên chỉ nhìn giá. Hãy nhìn tổng thể gồm hiệu năng, support, backup, datacenter và khả năng nâng cấp."
   - question: "Một người mới cần kiểm tra gì trước khi thanh toán?"
     answer: "Ít nhất hãy xem loại ổ đĩa, web server, SSL, backup, panel quản trị, chính sách hỗ trợ và giá gia hạn."
+image: "/images/blog/cach-chon-hosting-phu-hop.png"
+
 ---
 
 # Mở đầu

@@ -14,6 +14,8 @@ faq:
     answer: "Được nếu website còn rất nhỏ, nhưng nên chọn mức nền đủ dùng ngay từ đầu: có NVMe, backup, SSL, support rõ ràng. Chọn gói quá yếu thường làm bạn phải chuyển dữ liệu sớm hơn dự kiến."
   - question: "Khi nào nên bỏ shared hosting để lên business hosting hoặc VPS?"
     answer: "Khi website bắt đầu chậm giờ cao điểm, hay bị giới hạn tài nguyên, chạy nhiều plugin nặng, có đơn hàng đều hoặc cần cấu hình riêng. Lúc đó business hosting hoặc VPS sẽ hợp hơn."
+image: "/images/blog/top-hosting-tot-nhat-viet-nam.png"
+
 ---
 # top 7 dịch vụ hosting tốt nhất tại Việt Nam cho website 2026
 

@@ -14,6 +14,8 @@ faq:
     answer: "Không cần. VPS cho nhiều quyền kiểm soát hơn nhưng cũng thêm nhiều việc vận hành. Với người mới, hosting có quản lý tốt sẽ dễ bắt đầu hơn."
   - question: "Tiêu chí quan trọng nhất với người mới là gì?"
     answer: "Thường là dễ dùng, backup rõ và support tốt. Cấu hình cao nhưng khó quản lý chưa chắc phù hợp trong giai đoạn đầu."
+image: "/images/blog/hosting-tot-nhat-cho-nguoi-moi-lam-web.png"
+
 ---
 # hosting tốt nhất cho người mới làm web: ưu tiên dễ dùng trước khi nghĩ đến cấu hình
 

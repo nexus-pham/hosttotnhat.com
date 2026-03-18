@@ -14,6 +14,8 @@ faq:
     answer: "Chưa đủ. NVMe là một phần. Bạn còn phải nhìn LiteSpeed, Disk I/O, mức tài nguyên và cách nhà cung cấp quản lý chia sẻ tài nguyên."
   - question: "Website ở Việt Nam nên đặt máy chủ ở đâu để nhanh hơn?"
     answer: "Nếu phần lớn người dùng ở Việt Nam, datacenter Việt Nam thường cho độ trễ thấp hơn. Singapore cũng có thể rất ổn nếu cấu hình tốt và traffic có yếu tố khu vực."
+image: "/images/blog/hosting-toc-do-cao-tot-nhat.png"
+
 ---
 # hosting tốc độ cao tốt nhất: site chậm thường không chỉ do code
 

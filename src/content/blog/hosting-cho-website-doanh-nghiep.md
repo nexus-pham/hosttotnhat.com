@@ -14,6 +14,8 @@ faq:
     answer: "Thường là độ ổn định, backup, support và khả năng nâng cấp. Website doanh nghiệp không nên chỉ nhìn giá theo tháng."
   - question: "Khi nào doanh nghiệp nên lên VPS?"
     answer: "Khi cần cấu hình riêng, tách dịch vụ rõ ràng hoặc có tải tăng vượt khỏi business hosting. Nếu chưa có đội kỹ thuật, có thể đi từ business hosting trước."
+image: "/images/blog/hosting-cho-website-doanh-nghiep.png"
+
 ---
 # hosting tốt nhất cho website doanh nghiệp: khi website không còn là "cho có"
 

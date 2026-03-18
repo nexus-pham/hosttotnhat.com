@@ -14,6 +14,8 @@ faq:
     answer: "VPS cho bạn môi trường riêng hơn và có quyền cấu hình sâu hơn. Shared hosting thì dễ dùng hơn nhưng ít quyền kiểm soát hơn."
   - question: "Người mới học WordPress nên dùng loại nào?"
     answer: "Phần lớn nên bắt đầu với shared hosting hoặc WordPress Hosting để tiết kiệm thời gian và tránh ôm thêm việc quản trị máy chủ."
+image: "/images/blog/hosting-la-gi-va-khac-gi-vps.png"
+
 ---
 
 # Mở đầu

@@ -14,6 +14,8 @@ faq:
     answer: "Khi traffic tăng đều, wp-admin chậm, ảnh nhiều, plugin nhiều hoặc bạn bắt đầu dùng blog như kênh kiếm tiền nghiêm túc."
   - question: "Blog cá nhân có nên dùng VPS không?"
     answer: "Chỉ nên nếu bạn có nhu cầu đặc biệt hoặc biết quản trị. Với đa số blogger, shared hosting tốt hoặc WordPress Hosting tiện hơn nhiều."
+image: "/images/blog/hosting-cho-blog-ca-nhan.png"
+
 ---
 # hosting tốt nhất cho blog cá nhân: đủ nhanh, dễ dùng, không tốn quá nhiều tiền
 

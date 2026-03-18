@@ -14,6 +14,8 @@ faq:
     answer: "Business hosting dễ quản lý hơn, ít phải tự vận hành hơn. VPS cho quyền kiểm soát cao hơn nhưng yêu cầu kỹ năng quản trị."
   - question: "Tại sao checkout lại nhạy với hạ tầng?"
     answer: "Vì đây là phần động, không cache toàn phần được và liên quan trực tiếp đến session, database, plugin thanh toán cùng nhiều tác vụ nền."
+image: "/images/blog/hosting-tot-nhat-cho-website-ban-hang.png"
+
 ---
 # hosting tốt nhất cho website bán hàng: chọn shared, business hay VPS?
 
