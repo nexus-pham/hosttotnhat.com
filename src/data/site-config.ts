@@ -5,7 +5,7 @@ export const siteConfig = {
   tagline: 'Đánh giá và so sánh hosting tốt nhất tại Việt Nam',
   logoText: 'HTN',
   logoIcon: 'award',
-  ga4MeasurementId: 'G-XXXXXXXXXX',
+  ga4MeasurementId: 'G-B4HNNXKZXS',
   googleSiteVerification: '1JblHFDXtz6xMGGOdKLdv0Blpbku-VcNSiskoLD9Ss0',
   colors: {
     primary: '#059669',
