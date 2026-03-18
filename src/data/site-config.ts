@@ -6,7 +6,7 @@ export const siteConfig = {
   logoText: 'HTN',
   logoIcon: 'award',
   ga4MeasurementId: 'G-XXXXXXXXXX',
-  googleSiteVerification: '',
+  googleSiteVerification: '1JblHFDXtz6xMGGOdKLdv0Blpbku-VcNSiskoLD9Ss0',
   colors: {
     primary: '#059669',
     primaryDark: '#047857',
