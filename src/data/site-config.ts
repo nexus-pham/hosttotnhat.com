@@ -20,8 +20,8 @@ export const siteConfig = {
     { label: 'Liên hệ', href: '/contact/' },
   ],
   ctas: {
-    register: 'https://azdigi.com/hosting/',
-    consultation: 'https://azdigi.com/hosting/',
+    register: 'https://azdigi.com/hosting-gia-re',
+    consultation: 'https://azdigi.com/hosting-gia-re',
     learnMore: 'https://azdigi.com/premium-business-hosting/',
   },
   contact: {
@@ -42,7 +42,7 @@ export const siteConfig = {
       startingPrice: 49000,
       oldPrice: 59000,
       ctaText: 'Xem Hosting SSD',
-      ctaUrl: 'https://azdigi.com/hosting/',
+      ctaUrl: 'https://azdigi.com/hosting-gia-re',
       features: ['Từ 49.000đ/tháng', 'Phù hợp website nhỏ và người mới bắt đầu', 'Băng thông không giới hạn', 'SSL miễn phí và backup định kỳ'],
     },
     {
