@@ -37,7 +37,7 @@ Cần tài nguyên cao hơn, I/O tốt hơn. Turbo Business Hosting hoặc VPS l
 
 ## tham chiếu cấu hình
 
-Hosting SSD: 49.000đ/tháng, NVMe, LiteSpeed, cPanel, SSL, backup. Premium Business Hosting: 239.000đ/tháng, 2-8 cores, 4-12GB RAM, Disk I/O 200MB/s. Turbo Business Hosting: 550.000đ/tháng, 6-18 vCPU, 8-24GB RAM, Disk I/O 500MB/s. NVMe VPS: 169.000đ/tháng, tự quản trị.
+Pro Hosting: 29.000đ/tháng, NVMe, LiteSpeed, cPanel, SSL, backup. Premium Business Hosting: 239.000đ/tháng, 2-8 cores, 4-12GB RAM, Disk I/O 200MB/s. Turbo Business Hosting: 550.000đ/tháng, 6-18 vCPU, 8-24GB RAM, Disk I/O 500MB/s. NVMe VPS: 169.000đ/tháng, tự quản trị.
 
 ## khi nào business hosting là điểm ngọt
 

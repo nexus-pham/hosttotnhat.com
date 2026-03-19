@@ -25,7 +25,7 @@ Hosting giá rẻ rất dễ hấp dẫn vì chi phí đầu vào thấp. Nhưng
 
 Trong 2026, theo mình, gói hosting giá rẻ nên có ít nhất: lưu trữ NVMe, web server tối ưu như LiteSpeed hoặc tương đương, cPanel hoặc control panel dễ dùng, free SSL, backup định kỳ, có lớp bảo vệ cơ bản hoặc anti-malware phù hợp, support phản hồi được khi gặp lỗi nền tảng.
 
-Một ví dụ tham chiếu dễ hình dung là Hosting SSD từ 49.000đ/tháng với NVMe, LiteSpeed, cPanel, free SSL và backup.
+Một ví dụ tham chiếu dễ hình dung là Pro Hosting từ 29.000đ/tháng với NVMe, LiteSpeed, cPanel, free SSL và backup.
 
 ## gói rẻ phù hợp với ai
 
@@ -75,7 +75,7 @@ Nếu website đã có traffic đều, là kênh kiếm tiền, chạy nhiều p
 
 ## ví dụ use case dễ hình dung
 
-Một sinh viên làm website portfolio hoặc blog học SEO có thể dùng rất ổn trên gói 49.000đ/tháng nếu có NVMe, LiteSpeed và backup. Nhưng một website dịch vụ có nhiều landing page, form báo giá và chạy ads liên tục thì gói này thường chỉ phù hợp ở giai đoạn đầu.
+Một sinh viên làm website portfolio hoặc blog học SEO có thể dùng rất ổn trên gói 29.000đ/tháng nếu có NVMe, LiteSpeed và backup. Nhưng một website dịch vụ có nhiều landing page, form báo giá và chạy ads liên tục thì gói này thường chỉ phù hợp ở giai đoạn đầu.
 
 ## lưu ý về giá gia hạn và phụ phí
 

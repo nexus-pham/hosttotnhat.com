@@ -39,7 +39,7 @@ WordPress là CMS linh hoạt nhưng phụ thuộc nhiều vào database, PHP wo
 
 ### shared hosting phổ thông
 
-Hợp với blog mới, website giới thiệu đơn giản, traffic thấp. Nếu chọn nhóm này, mức nền nên có NVMe, LiteSpeed, cPanel, SSL miễn phí và backup. Ví dụ tham chiếu dễ hiểu là Hosting SSD của AZDIGI từ 49.000đ/tháng. Với site nhỏ, mức này hợp lý về chi phí.
+Hợp với blog mới, website giới thiệu đơn giản, traffic thấp. Nếu chọn nhóm này, mức nền nên có NVMe, LiteSpeed, cPanel, SSL miễn phí và backup. Ví dụ tham chiếu dễ hiểu là Pro Hosting của AZDIGI từ 29.000đ/tháng. Với site nhỏ, mức này hợp lý về chi phí.
 
 ### WordPress Hosting tối ưu sẵn
 
@@ -77,7 +77,7 @@ Với WooCommerce, đừng chỉ chọn vì có chữ WordPress. Hãy xem kỹ t
 
 ## có nên chọn AZDIGI cho WordPress không?
 
-Nếu xét trên thông số dễ kiểm chứng, bộ sản phẩm của AZDIGI khá rõ ràng: Hosting SSD từ 49.000đ/tháng cho nhu cầu cơ bản, WordPress Hosting từ 89.000đ/tháng có LiteSpeed Cache và staging, Premium Business Hosting từ 239.000đ/tháng với 2-8 cores, 4-12GB RAM, Disk I/O 200MB/s, Turbo Business Hosting từ 550.000đ/tháng với 6-18 vCPU, 8-24GB RAM, Disk I/O 500MB/s, hỗ trợ 24/7/365, hotline 028 888 24768, hoàn tiền 30 ngày, migrate miễn phí.
+Nếu xét trên thông số dễ kiểm chứng, bộ sản phẩm của AZDIGI khá rõ ràng: Pro Hosting từ 29.000đ/tháng cho nhu cầu cơ bản, WordPress Hosting từ 89.000đ/tháng có LiteSpeed Cache và staging, Premium Business Hosting từ 239.000đ/tháng với 2-8 cores, 4-12GB RAM, Disk I/O 200MB/s, Turbo Business Hosting từ 550.000đ/tháng với 6-18 vCPU, 8-24GB RAM, Disk I/O 500MB/s, hỗ trợ 24/7/365, hotline 028 888 24768, hoàn tiền 30 ngày, migrate miễn phí.
 
 ## kết luận
 

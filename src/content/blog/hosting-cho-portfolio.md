@@ -22,7 +22,7 @@ image: "/images/blog/hosting-cho-portfolio.png"
 
 Từ khóa **hosting cho portfolio tốt nhất** thường được tìm khi người làm web đã bắt đầu thấy giới hạn của việc chọn hosting theo cảm tính. Với mỗi use case, câu hỏi quan trọng không phải là gói nào nghe mạnh nhất mà là gói nào giải quyết đúng điểm nghẽn thực tế: tốc độ phản hồi, độ ổn định, thời gian quản trị và khả năng nâng cấp sau này. AZDIGI đặt máy chủ tại Việt Nam và Singapore, hỗ trợ 24/7, hoàn tiền 30 ngày và migrate miễn phí.
 
-Trong hệ sinh thái AZDIGI hiện có vài nấc khá rõ để tham chiếu. Hosting SSD từ 49.000đ/tháng, dùng NVMe, LiteSpeed, cPanel và free SSL. WordPress Hosting từ 89.000đ/tháng, có LiteSpeed Cache và staging. Premium Business từ 239.000đ/tháng, 2-8 cores, 4-12GB RAM, NVMe U.2, Disk I/O 200MB/s, có CloudLinux, Imunify360 và LiteSpeed Enterprise. Turbo Business từ 550.000đ/tháng, 6-18 vCPU, 8-24GB RAM, Disk I/O 500MB/s, IP riêng từ gói 3. NVMe VPS từ 169.000đ/tháng, phù hợp khi cần quyền root và cấu hình riêng.
+Trong hệ sinh thái AZDIGI hiện có vài nấc khá rõ để tham chiếu. Pro Hosting từ 29.000đ/tháng, dùng NVMe, LiteSpeed, cPanel và free SSL. WordPress Hosting từ 89.000đ/tháng, có LiteSpeed Cache và staging. Premium Business từ 239.000đ/tháng, 2-8 cores, 4-12GB RAM, NVMe U.2, Disk I/O 200MB/s, có CloudLinux, Imunify360 và LiteSpeed Enterprise. Turbo Business từ 550.000đ/tháng, 6-18 vCPU, 8-24GB RAM, Disk I/O 500MB/s, IP riêng từ gói 3. NVMe VPS từ 169.000đ/tháng, phù hợp khi cần quyền root và cấu hình riêng.
 
 Để có thêm bối cảnh, bạn có thể đọc [bài liên quan thứ nhất](/blog/hosting-cho-blog-ca-nhan/), [bài liên quan thứ hai](/blog/hosting-tot-nhat-cho-sinh-vien/) và [bài liên quan thứ ba](/blog/hosting-gia-re-tot-nhat/).
 
@@ -31,7 +31,7 @@ Trong hệ sinh thái AZDIGI hiện có vài nấc khá rõ để tham chiếu. 
 
 Portfolio của designer, developer hay freelancer thường có mục tiêu rất rõ: mở nhanh, ảnh đẹp, giao diện sạch và hoạt động ổn định trên điện thoại. Đây không phải loại site cần nhiều CPU hoặc RAM. Thứ quan trọng là cảm giác mượt khi mở trang chủ, hình ảnh được phân phối ổn và quá trình cập nhật không phức tạp.
 
-Với phần lớn portfolio, gói Hosting SSD là đủ. NVMe giúp thao tác quản trị nhanh hơn, LiteSpeed hỗ trợ cache, còn cPanel giúp bạn xử lý domain, SSL và email mà không phải động tới dòng lệnh. Nếu portfolio dùng WordPress nặng với nhiều hiệu ứng hoặc page builder, WordPress Hosting sẽ hợp hơn vì có môi trường tối ưu sẵn.
+Với phần lớn portfolio, gói Pro Hosting là đủ. NVMe giúp thao tác quản trị nhanh hơn, LiteSpeed hỗ trợ cache, còn cPanel giúp bạn xử lý domain, SSL và email mà không phải động tới dòng lệnh. Nếu portfolio dùng WordPress nặng với nhiều hiệu ứng hoặc page builder, WordPress Hosting sẽ hợp hơn vì có môi trường tối ưu sẵn.
 
 # Chọn theo kiểu portfolio
 
@@ -39,7 +39,7 @@ Với phần lớn portfolio, gói Hosting SSD là đủ. NVMe giúp thao tác q
 Nếu site build bằng Astro, Next xuất tĩnh hoặc HTML/CSS/JS cơ bản, tài nguyên dùng rất thấp. Bạn không cần gói lớn.
 
 ## Portfolio WordPress nhẹ
-Nếu cần blog đi kèm, cập nhật dự án định kỳ và quản trị đơn giản, WordPress là lựa chọn thực tế. Khi đó, Hosting SSD hoặc WordPress Hosting đều dùng được tùy độ nặng của theme.
+Nếu cần blog đi kèm, cập nhật dự án định kỳ và quản trị đơn giản, WordPress là lựa chọn thực tế. Khi đó, Pro Hosting hoặc WordPress Hosting đều dùng được tùy độ nặng của theme.
 
 ## Portfolio nhiều ảnh, video nhúng
 Bạn nên ưu tiên tốc độ ổn định, tối ưu ảnh và lưu video ở nền tảng ngoài thay vì nhét trực tiếp lên hosting.
@@ -59,11 +59,11 @@ Portfolio là kiểu website rất hợp để bắt đầu nhỏ. Một gói ho
 
 ## Designer mới ra nghề
 
-Nếu bạn cần website để gửi cùng CV, giới thiệu vài dự án và có form liên hệ, gói Hosting SSD là đủ trong đa số trường hợp. Bạn không cần trả thêm cho tài nguyên lớn nếu site chỉ vài chục ảnh đã tối ưu. Quan trọng hơn là giao diện mở nhanh trên điện thoại và có SSL để tạo cảm giác tin cậy.
+Nếu bạn cần website để gửi cùng CV, giới thiệu vài dự án và có form liên hệ, gói Pro Hosting là đủ trong đa số trường hợp. Bạn không cần trả thêm cho tài nguyên lớn nếu site chỉ vài chục ảnh đã tối ưu. Quan trọng hơn là giao diện mở nhanh trên điện thoại và có SSL để tạo cảm giác tin cậy.
 
 ## Developer cần thêm blog kỹ thuật
 
-Khi portfolio đi kèm blog chia sẻ kiến thức, số lượng bài sẽ tăng dần. Lúc này, bạn có thể tiếp tục dùng Hosting SSD nếu theme nhẹ. Nếu bắt đầu cài nhiều plugin hơn hoặc muốn có staging để test thay đổi, WordPress Hosting hợp lý hơn.
+Khi portfolio đi kèm blog chia sẻ kiến thức, số lượng bài sẽ tăng dần. Lúc này, bạn có thể tiếp tục dùng Pro Hosting nếu theme nhẹ. Nếu bắt đầu cài nhiều plugin hơn hoặc muốn có staging để test thay đổi, WordPress Hosting hợp lý hơn.
 
 ## Freelancer cần nhiều trang dịch vụ
 
@@ -101,7 +101,7 @@ Nếu bạn đang phân vân giữa gói rất rẻ và gói vừa phải nhưng
 
 | Mục tiêu | Hạ tầng nên chọn | Ghi chú |
 |---|---|---|
-| CV online hoặc site giới thiệu rất nhẹ | Hosting SSD | Ưu tiên NVMe, SSL, tốc độ mở trang đầu |
+| CV online hoặc site giới thiệu rất nhẹ | Pro Hosting | Ưu tiên NVMe, SSL, tốc độ mở trang đầu |
 | Portfolio WordPress có blog đi kèm | WordPress Hosting | Dễ quản lý bài viết, plugin, cache |
 | Portfolio nhiều case study, nhiều trang dịch vụ | Premium Business | Có thêm vùng đệm khi bắt đầu kéo lead đều |
 | Có ứng dụng demo, cần môi trường riêng | VPS | Chỉ hợp khi thực sự cần stack riêng |
@@ -110,7 +110,7 @@ Portfolio thường không có lượng truy cập khổng lồ, nhưng lại nh
 
 # Một vài use case rất đời thường
 
-Designer mới ra nghề thường chỉ cần một site giới thiệu bản thân, vài dự án nổi bật và form liên hệ. Với nhu cầu đó, Hosting SSD là đủ nếu bạn tối ưu ảnh tốt. Một front-end developer có thêm blog chia sẻ kiến thức thì WordPress Hosting hoặc gói tương đương sẽ dễ sống hơn vì phần quản trị nội dung thuận tiện hơn. Còn freelancer đã bắt đầu dùng portfolio như một kênh tạo lead thật, có thêm trang dịch vụ, testimonial và case study, nên nhìn sang Premium Business để có thêm biên an toàn.
+Designer mới ra nghề thường chỉ cần một site giới thiệu bản thân, vài dự án nổi bật và form liên hệ. Với nhu cầu đó, Pro Hosting là đủ nếu bạn tối ưu ảnh tốt. Một front-end developer có thêm blog chia sẻ kiến thức thì WordPress Hosting hoặc gói tương đương sẽ dễ sống hơn vì phần quản trị nội dung thuận tiện hơn. Còn freelancer đã bắt đầu dùng portfolio như một kênh tạo lead thật, có thêm trang dịch vụ, testimonial và case study, nên nhìn sang Premium Business để có thêm biên an toàn.
 
 Nếu bạn đang dùng portfolio như một phần của chiến lược cá nhân dài hạn, nên đọc thêm [hosting tốt nhất cho sinh viên](/blog/hosting-tot-nhat-cho-sinh-vien/) hoặc [cách chọn hosting phù hợp](/blog/cach-chon-hosting-phu-hop/) để ghép đúng với giai đoạn của mình.
 

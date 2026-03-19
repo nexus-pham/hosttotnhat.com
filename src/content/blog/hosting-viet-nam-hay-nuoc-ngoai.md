@@ -22,7 +22,7 @@ image: "/images/blog/hosting-viet-nam-hay-nuoc-ngoai.png"
 
 Từ khóa **hosting việt nam hay nước ngoài** thường được tìm khi người làm web đã bắt đầu thấy giới hạn của việc chọn hosting theo cảm tính. Với mỗi use case, câu hỏi quan trọng không phải là gói nào nghe mạnh nhất mà là gói nào giải quyết đúng điểm nghẽn thực tế: tốc độ phản hồi, độ ổn định, thời gian quản trị và khả năng nâng cấp sau này. AZDIGI đặt máy chủ tại Việt Nam và Singapore, hỗ trợ 24/7, hoàn tiền 30 ngày và migrate miễn phí.
 
-Trong hệ sinh thái AZDIGI hiện có vài nấc khá rõ để tham chiếu. Hosting SSD từ 49.000đ/tháng, dùng NVMe, LiteSpeed, cPanel và free SSL. WordPress Hosting từ 89.000đ/tháng, có LiteSpeed Cache và staging. Premium Business từ 239.000đ/tháng, 2-8 cores, 4-12GB RAM, NVMe U.2, Disk I/O 200MB/s, có CloudLinux, Imunify360 và LiteSpeed Enterprise. Turbo Business từ 550.000đ/tháng, 6-18 vCPU, 8-24GB RAM, Disk I/O 500MB/s, IP riêng từ gói 3. NVMe VPS từ 169.000đ/tháng, phù hợp khi cần quyền root và cấu hình riêng.
+Trong hệ sinh thái AZDIGI hiện có vài nấc khá rõ để tham chiếu. Pro Hosting từ 29.000đ/tháng, dùng NVMe, LiteSpeed, cPanel và free SSL. WordPress Hosting từ 89.000đ/tháng, có LiteSpeed Cache và staging. Premium Business từ 239.000đ/tháng, 2-8 cores, 4-12GB RAM, NVMe U.2, Disk I/O 200MB/s, có CloudLinux, Imunify360 và LiteSpeed Enterprise. Turbo Business từ 550.000đ/tháng, 6-18 vCPU, 8-24GB RAM, Disk I/O 500MB/s, IP riêng từ gói 3. NVMe VPS từ 169.000đ/tháng, phù hợp khi cần quyền root và cấu hình riêng.
 
 Để có thêm bối cảnh, bạn có thể đọc [bài liên quan thứ nhất](/blog/hosting-toc-do-cao-tot-nhat/), [bài liên quan thứ hai](/blog/top-hosting-tot-nhat-viet-nam/) và [bài liên quan thứ ba](/blog/hosting-bao-mat-tot-nhat/).
 
@@ -49,7 +49,7 @@ Một số doanh nghiệp cần cân nhắc nơi lưu dữ liệu, hợp đồng
 CDN giúp rất tốt cho ảnh, CSS, JS. Nhưng phần xử lý động như đăng nhập, giỏ hàng, search hay ghi dữ liệu vẫn chịu ảnh hưởng từ vị trí máy chủ gốc.
 
 ## 6. Khả năng nâng cấp
-Hãy xem nhà cung cấp có nhiều nấc dịch vụ không. Một lộ trình từ Hosting SSD, WordPress Hosting đến Premium Business, Turbo Business và VPS sẽ giúp bạn đổi theo nhu cầu dễ hơn.
+Hãy xem nhà cung cấp có nhiều nấc dịch vụ không. Một lộ trình từ Pro Hosting, WordPress Hosting đến Premium Business, Turbo Business và VPS sẽ giúp bạn đổi theo nhu cầu dễ hơn.
 
 # Chọn thế nào cho hợp lý
 

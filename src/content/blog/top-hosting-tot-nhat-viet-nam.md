@@ -46,7 +46,7 @@ Ngoài ra, nếu website là tài sản kinh doanh chứ không chỉ là “tra
 
 Đây là lựa chọn hợp với phần lớn người dùng mới. Với nhóm này, ngưỡng tối thiểu trong 2026 không nên thấp hơn các điểm sau: lưu trữ NVMe, có LiteSpeed hoặc stack tương đương, SSL miễn phí, backup định kỳ và bảng điều khiển dễ dùng như cPanel.
 
-Một ví dụ dễ tham chiếu là gói Hosting SSD của AZDIGI, giá từ 49.000đ/tháng. Gói này có NVMe, LiteSpeed, cPanel, free SSL và backup. Với một blog cá nhân, trang giới thiệu dịch vụ, site học WordPress hoặc landing page chạy quảng cáo nhỏ, cấu hình như vậy là đủ thực dụng.
+Một ví dụ dễ tham chiếu là gói Pro Hosting của AZDIGI, giá từ 29.000đ/tháng. Gói này có NVMe, LiteSpeed, cPanel, free SSL và backup. Với một blog cá nhân, trang giới thiệu dịch vụ, site học WordPress hoặc landing page chạy quảng cáo nhỏ, cấu hình như vậy là đủ thực dụng.
 
 ### 2. WordPress Hosting tối ưu sẵn cho site nội dung
 
@@ -134,7 +134,7 @@ Nhiều bài review chỉ chốt một nhà cung cấp cho mọi website. Cách 
 
 ### chọn quá yếu để tiết kiệm vài chục nghìn
 
-Tiết kiệm là đúng, nhưng tiết kiệm quá mức thường làm bạn tốn thời gian hơn. Nếu website là công cụ kiếm tiền hoặc nhận khách hàng, phần chênh lệch giữa 49.000đ và 89.000đ, hay giữa 89.000đ và 239.000đ, đôi khi nhỏ hơn rất nhiều so với một lần site lag trong đợt quảng cáo.
+Tiết kiệm là đúng, nhưng tiết kiệm quá mức thường làm bạn tốn thời gian hơn. Nếu website là công cụ kiếm tiền hoặc nhận khách hàng, phần chênh lệch giữa 29.000đ và 89.000đ, hay giữa 89.000đ và 239.000đ, đôi khi nhỏ hơn rất nhiều so với một lần site lag trong đợt quảng cáo.
 
 ### nhảy thẳng lên VPS dù chưa cần
 

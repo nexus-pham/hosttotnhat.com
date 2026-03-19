@@ -21,6 +21,9 @@ const { title, description, path = Astro.url.pathname, image, type = 'website', 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <SEOHead title={title} description={description} path={path} image={image} type={type} jsonLd={jsonLd} />
+    {siteConfig.googleSiteVerification && (
+      <meta name="google-site-verification" content={siteConfig.googleSiteVerification} />
+    )}
     {siteConfig.ga4MeasurementId !== 'G-XXXXXXXXXX' && (
       <>
         <script async src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.ga4MeasurementId}`}></script>

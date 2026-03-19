@@ -27,7 +27,7 @@ cPanel vẫn là lựa chọn rất hợp với người mới. Giao diện quen
 
 ## những thứ nên có sẵn
 
-cPanel, cài WordPress nhanh, SSL miễn phí, backup định kỳ, support rõ ràng, NVMe và LiteSpeed để tốc độ nền không quá tệ. Một gói Hosting SSD từ 49.000đ/tháng có đủ NVMe, LiteSpeed, cPanel, free SSL, backup là mức khởi đầu dễ chịu.
+cPanel, cài WordPress nhanh, SSL miễn phí, backup định kỳ, support rõ ràng, NVMe và LiteSpeed để tốc độ nền không quá tệ. Một gói Pro Hosting từ 29.000đ/tháng có đủ NVMe, LiteSpeed, cPanel, free SSL, backup là mức khởi đầu dễ chịu.
 
 ## khi nào nên lên WordPress Hosting
 

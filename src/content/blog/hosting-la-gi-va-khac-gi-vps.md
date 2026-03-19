@@ -22,7 +22,7 @@ image: "/images/blog/hosting-la-gi-va-khac-gi-vps.png"
 
 Từ khóa **hosting là gì** thường được tìm khi người làm web đã bắt đầu thấy giới hạn của việc chọn hosting theo cảm tính. Với mỗi use case, câu hỏi quan trọng không phải là gói nào nghe mạnh nhất mà là gói nào giải quyết đúng điểm nghẽn thực tế: tốc độ phản hồi, độ ổn định, thời gian quản trị và khả năng nâng cấp sau này. AZDIGI đặt máy chủ tại Việt Nam và Singapore, hỗ trợ 24/7, hoàn tiền 30 ngày và migrate miễn phí.
 
-Trong hệ sinh thái AZDIGI hiện có vài nấc khá rõ để tham chiếu. Hosting SSD từ 49.000đ/tháng, dùng NVMe, LiteSpeed, cPanel và free SSL. WordPress Hosting từ 89.000đ/tháng, có LiteSpeed Cache và staging. Premium Business từ 239.000đ/tháng, 2-8 cores, 4-12GB RAM, NVMe U.2, Disk I/O 200MB/s, có CloudLinux, Imunify360 và LiteSpeed Enterprise. Turbo Business từ 550.000đ/tháng, 6-18 vCPU, 8-24GB RAM, Disk I/O 500MB/s, IP riêng từ gói 3. NVMe VPS từ 169.000đ/tháng, phù hợp khi cần quyền root và cấu hình riêng.
+Trong hệ sinh thái AZDIGI hiện có vài nấc khá rõ để tham chiếu. Pro Hosting từ 29.000đ/tháng, dùng NVMe, LiteSpeed, cPanel và free SSL. WordPress Hosting từ 89.000đ/tháng, có LiteSpeed Cache và staging. Premium Business từ 239.000đ/tháng, 2-8 cores, 4-12GB RAM, NVMe U.2, Disk I/O 200MB/s, có CloudLinux, Imunify360 và LiteSpeed Enterprise. Turbo Business từ 550.000đ/tháng, 6-18 vCPU, 8-24GB RAM, Disk I/O 500MB/s, IP riêng từ gói 3. NVMe VPS từ 169.000đ/tháng, phù hợp khi cần quyền root và cấu hình riêng.
 
 Để có thêm bối cảnh, bạn có thể đọc [bài liên quan thứ nhất](/blog/shared-hosting-vs-vps-vs-cloud/), [bài liên quan thứ hai](/blog/wordpress-hosting-la-gi/) và [bài liên quan thứ ba](/blog/hosting-tot-nhat-cho-nguoi-moi-lam-web/).
 
@@ -55,7 +55,7 @@ Nếu bạn chỉ cần WordPress, portfolio, blog hoặc website doanh nghiệp
 
 # Chọn thế nào cho người mới
 
-Nếu bạn đang học làm web, cần một site chạy sớm, ít lỗi vặt, hãy dùng hosting. Ví dụ, Hosting SSD từ 49.000đ/tháng đã có NVMe, LiteSpeed, cPanel và free SSL. Nếu chỉ chạy WordPress, WordPress Hosting từ 89.000đ/tháng còn dễ tối ưu hơn.
+Nếu bạn đang học làm web, cần một site chạy sớm, ít lỗi vặt, hãy dùng hosting. Ví dụ, Pro Hosting từ 29.000đ/tháng đã có NVMe, LiteSpeed, cPanel và free SSL. Nếu chỉ chạy WordPress, WordPress Hosting từ 89.000đ/tháng còn dễ tối ưu hơn.
 
 Chỉ nên chọn VPS khi bạn hiểu vì sao mình cần nó. Câu trả lời “để mạnh hơn” thường chưa đủ. Câu trả lời đúng hơn sẽ là “vì tôi cần quyền root”, “vì tôi phải chạy service riêng” hoặc “vì tôi cần cấu hình hệ thống không có trên shared hosting”.
 

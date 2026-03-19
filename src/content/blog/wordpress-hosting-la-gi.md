@@ -47,7 +47,7 @@ WordPress dùng PHP và MySQL hoặc MariaDB, lại dựa vào rất nhiều plu
 
 ## WordPress Hosting có phải lúc nào cũng tốt hơn?
 
-Không. Nếu site rất nhỏ, ít truy cập, bạn biết mình đang làm gì và muốn tối ưu chi phí tối đa, shared hosting tốt vẫn là phương án hợp lý. Ví dụ một gói Hosting SSD có NVMe, LiteSpeed, cPanel, backup và SSL miễn phí từ 49.000đ/tháng đã đủ cho khá nhiều blog mới.
+Không. Nếu site rất nhỏ, ít truy cập, bạn biết mình đang làm gì và muốn tối ưu chi phí tối đa, shared hosting tốt vẫn là phương án hợp lý. Ví dụ một gói Pro Hosting có NVMe, LiteSpeed, cPanel, backup và SSL miễn phí từ 29.000đ/tháng đã đủ cho khá nhiều blog mới.
 
 ## khi nào nên dùng WordPress Hosting
 
@@ -55,7 +55,7 @@ Nếu bạn thêm nhiều plugin, muốn dùng staging, cần backup chắc tay 
 
 ## ví dụ tham chiếu từ AZDIGI
 
-AZDIGI có vài mức sản phẩm khá dễ đối chiếu: Hosting SSD từ 49.000đ/tháng với NVMe, LiteSpeed, cPanel, free SSL, backup; WordPress Hosting từ 89.000đ/tháng có tối ưu WordPress, LiteSpeed Cache, staging; Premium Business Hosting từ 239.000đ/tháng với 2-8 cores, 4-12GB RAM, NVMe U.2, Disk I/O 200MB/s, CloudLinux, Imunify360.
+AZDIGI có vài mức sản phẩm khá dễ đối chiếu: Pro Hosting từ 29.000đ/tháng với NVMe, LiteSpeed, cPanel, free SSL, backup; WordPress Hosting từ 89.000đ/tháng có tối ưu WordPress, LiteSpeed Cache, staging; Premium Business Hosting từ 239.000đ/tháng với 2-8 cores, 4-12GB RAM, NVMe U.2, Disk I/O 200MB/s, CloudLinux, Imunify360.
 
 ## WordPress Hosting có thay thế VPS không?
 
@@ -121,7 +121,7 @@ Nếu phần lớn câu trả lời là có, WordPress Hosting thường đáng 
 
 ## so chi phí theo góc nhìn dài hạn
 
-Khoảng chênh từ 49.000đ lên 89.000đ mỗi tháng không lớn nếu website giúp bạn tiết kiệm thời gian xử lý lỗi, giảm rủi ro khi update và cho trải nghiệm quản trị ổn hơn. Với website cá nhân thử nghiệm, khoản chênh này có thể chưa cần thiết. Nhưng với site dùng lâu dài, đây thường là phần tiền đáng chi.
+Khoảng chênh từ 29.000đ lên 89.000đ mỗi tháng không lớn nếu website giúp bạn tiết kiệm thời gian xử lý lỗi, giảm rủi ro khi update và cho trải nghiệm quản trị ổn hơn. Với website cá nhân thử nghiệm, khoản chênh này có thể chưa cần thiết. Nhưng với site dùng lâu dài, đây thường là phần tiền đáng chi.
 
 ## ví dụ chuyển giai đoạn của một website WordPress
 

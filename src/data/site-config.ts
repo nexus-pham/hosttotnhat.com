@@ -37,13 +37,13 @@ export const siteConfig = {
   pricingSections: [
     {
       id: 'hosting-ssd',
-      name: 'Hosting SSD',
-      subtitle: 'Cho blog cá nhân, website giới thiệu và các dự án cần mức giá dễ tiếp cận.',
-      startingPrice: 49000,
-      oldPrice: 59000,
-      ctaText: 'Xem Hosting SSD',
+      name: 'Pro Hosting',
+      subtitle: 'Cho blog cá nhân, website giới thiệu và các dự án cần mức giá dễ tiếp cận hơn theo danh sách sản phẩm hiện tại của AZDIGI.',
+      startingPrice: 29000,
+      oldPrice: 39000,
+      ctaText: 'Xem Pro Hosting',
       ctaUrl: 'https://azdigi.com/hosting-gia-re',
-      features: ['Từ 49.000đ/tháng', 'Phù hợp website nhỏ và người mới bắt đầu', 'Băng thông không giới hạn', 'SSL miễn phí và backup định kỳ'],
+      features: ['Từ 29.000đ/tháng', 'Phù hợp website nhỏ, blog cá nhân và người mới bắt đầu', 'Băng thông không giới hạn', 'SSL miễn phí và backup định kỳ'],
     },
     {
       id: 'wordpress-hosting',
@@ -73,7 +73,7 @@ export const siteConfig = {
     { title: 'Quan tâm cả chi phí dài hạn', description: 'Đánh giá không chỉ giá mở đầu mà còn xét tính năng đi kèm như backup, SSL, migrate và khả năng nâng cấp sau này.', icon: 'wallet' },
     { title: 'Ưu tiên nhà cung cấp hỗ trợ tốt', description: 'Với hosting, support là một phần của sản phẩm. Đơn vị phản hồi nhanh và xử lý có trách nhiệm luôn đáng tiền hơn.', icon: 'headphones' }
   ],
-  footerServices: ['Hosting SSD', 'WordPress Hosting', 'Premium Business Hosting', 'NVMe VPS', 'Cloud Server'],
+  footerServices: ['Pro Hosting', 'WordPress Hosting', 'Premium Business Hosting', 'NVMe VPS', 'Cloud Server'],
   footerSupport: ['Gửi yêu cầu hỗ trợ', 'Chính sách hoàn tiền', 'Cam kết chất lượng (SLA)', 'Hướng dẫn thanh toán', 'Liên hệ AZDIGI'],
   socialLinks: [
     { label: 'Facebook', href: 'https://www.facebook.com/azdigicorp', icon: 'facebook' },
